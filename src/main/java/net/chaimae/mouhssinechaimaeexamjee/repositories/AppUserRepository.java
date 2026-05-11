@@ -1,8 +1,6 @@
 package net.chaimae.mouhssinechaimaeexamjee.repositories;
 
-package ma.insurance.backend.repositories;
-
-import ma.insurance.backend.entities.AppUser;
+import net.chaimae.mouhssinechaimaeexamjee.entities.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.Optional;

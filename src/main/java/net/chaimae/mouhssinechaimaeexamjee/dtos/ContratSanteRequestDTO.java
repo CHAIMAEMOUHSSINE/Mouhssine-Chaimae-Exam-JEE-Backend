@@ -3,7 +3,7 @@ package net.chaimae.mouhssinechaimaeexamjee.dtos;
 
 import jakarta.validation.constraints.*;
 import lombok.*;
-import ma.insurance.backend.entities.ContratSante.NiveauCouverture;
+import net.chaimae.mouhssinechaimaeexamjee.entities.ContratSante.NiveauCouverture;
 
 import java.time.LocalDate;
 

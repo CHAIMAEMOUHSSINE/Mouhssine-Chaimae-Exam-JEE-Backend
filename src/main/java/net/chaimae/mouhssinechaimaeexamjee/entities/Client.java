@@ -33,6 +33,7 @@ public class Client {
     private String email;
 
     @OneToMany(mappedBy = "client", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @Builder.Default
     private List<Contrat> contrats = new ArrayList<>();
 }
 

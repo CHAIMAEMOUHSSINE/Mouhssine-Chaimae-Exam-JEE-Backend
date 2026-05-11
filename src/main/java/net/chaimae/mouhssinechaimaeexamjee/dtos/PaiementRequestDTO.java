@@ -3,7 +3,7 @@ package net.chaimae.mouhssinechaimaeexamjee.dtos;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.*;
-import ma.insurance.backend.entities.Paiement.TypePaiement;
+import net.chaimae.mouhssinechaimaeexamjee.entities.Paiement.TypePaiement;
 
 import java.time.LocalDate;
 

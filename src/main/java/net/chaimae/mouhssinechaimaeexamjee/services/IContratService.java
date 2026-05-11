@@ -1,9 +1,7 @@
 package net.chaimae.mouhssinechaimaeexamjee.services;
 
-package ma.insurance.backend.services;
-
-import ma.insurance.backend.dtos.*;
-import ma.insurance.backend.entities.Contrat.StatutContrat;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.*;
+import net.chaimae.mouhssinechaimaeexamjee.entities.Contrat.StatutContrat;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

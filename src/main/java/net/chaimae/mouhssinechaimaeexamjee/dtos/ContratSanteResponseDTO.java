@@ -1,5 +1,6 @@
 package net.chaimae.mouhssinechaimaeexamjee.dtos;
 import lombok.*;
+import net.chaimae.mouhssinechaimaeexamjee.entities.ContratSante.NiveauCouverture;
 
 
 @Data

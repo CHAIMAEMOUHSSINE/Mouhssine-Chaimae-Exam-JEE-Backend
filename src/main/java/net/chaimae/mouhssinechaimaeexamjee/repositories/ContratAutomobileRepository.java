@@ -1,6 +1,6 @@
 package net.chaimae.mouhssinechaimaeexamjee.repositories;
 
-import ma.insurance.backend.entities.ContratAutomobile;
+import net.chaimae.mouhssinechaimaeexamjee.entities.ContratAutomobile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

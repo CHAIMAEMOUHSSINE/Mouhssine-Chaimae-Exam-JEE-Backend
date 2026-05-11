@@ -1,7 +1,7 @@
 package net.chaimae.mouhssinechaimaeexamjee.dtos;
 
 import lombok.*;
-import ma.insurance.backend.entities.ContratHabitation.TypeLogement;
+import net.chaimae.mouhssinechaimaeexamjee.entities.ContratHabitation.TypeLogement;
 
 @Data
 @EqualsAndHashCode(callSuper = true)

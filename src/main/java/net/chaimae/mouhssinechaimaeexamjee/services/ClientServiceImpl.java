@@ -2,15 +2,14 @@ package net.chaimae.mouhssinechaimaeexamjee.services;
 
 
 import lombok.RequiredArgsConstructor;
-import ma.insurance.backend.dtos.ClientRequestDTO;
-import ma.insurance.backend.dtos.ClientResponseDTO;
-import ma.insurance.backend.dtos.ContratResponseDTO;
-import ma.insurance.backend.entities.Client;
-import ma.insurance.backend.mappers.ClientMapper;
-import ma.insurance.backend.mappers.ContratMapper;
-import ma.insurance.backend.repositories.ClientRepository;
-import ma.insurance.backend.repositories.ContratRepository;
-import ma.insurance.backend.services.IClientService;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.ClientRequestDTO;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.ClientResponseDTO;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.ContratResponseDTO;
+import net.chaimae.mouhssinechaimaeexamjee.entities.Client;
+import net.chaimae.mouhssinechaimaeexamjee.mappers.ClientMapper;
+import net.chaimae.mouhssinechaimaeexamjee.mappers.ContratMapper;
+import net.chaimae.mouhssinechaimaeexamjee.repositories.ClientRepository;
+import net.chaimae.mouhssinechaimaeexamjee.repositories.ContratRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package net.chaimae.mouhssinechaimaeexamjee.services;
 
-import ma.insurance.backend.dtos.PaiementRequestDTO;
-import ma.insurance.backend.dtos.PaiementResponseDTO;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.PaiementRequestDTO;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.PaiementResponseDTO;
 
 import java.util.List;
 

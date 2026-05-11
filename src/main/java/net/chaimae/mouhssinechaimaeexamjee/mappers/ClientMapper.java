@@ -1,9 +1,8 @@
 package net.chaimae.mouhssinechaimaeexamjee.mappers;
-package ma.insurance.backend.mappers;
 
-import ma.insurance.backend.dtos.ClientRequestDTO;
-import ma.insurance.backend.dtos.ClientResponseDTO;
-import ma.insurance.backend.entities.Client;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.ClientRequestDTO;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.ClientResponseDTO;
+import net.chaimae.mouhssinechaimaeexamjee.entities.Client;
 import org.mapstruct.*;
 
 @Mapper(componentModel = "spring")

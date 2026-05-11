@@ -30,6 +30,7 @@ public class AppUser {
     @Column(nullable = false)
     private String email;
 
+    @Builder.Default
     private boolean active = true;
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)

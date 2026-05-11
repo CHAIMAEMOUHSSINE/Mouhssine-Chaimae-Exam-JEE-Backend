@@ -2,7 +2,7 @@ package net.chaimae.mouhssinechaimaeexamjee.dtos;
 
 import jakarta.validation.constraints.*;
 import lombok.*;
-
+import net.chaimae.mouhssinechaimaeexamjee.entities.ContratHabitation.TypeLogement;
 
 import java.time.LocalDate;
 

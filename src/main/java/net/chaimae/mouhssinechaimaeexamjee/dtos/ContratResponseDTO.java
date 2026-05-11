@@ -3,7 +3,7 @@ package net.chaimae.mouhssinechaimaeexamjee.dtos;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import lombok.*;
-import ma.insurance.backend.entities.Contrat.StatutContrat;
+import net.chaimae.mouhssinechaimaeexamjee.entities.Contrat.StatutContrat;
 
 import java.time.LocalDate;
 import java.util.List;

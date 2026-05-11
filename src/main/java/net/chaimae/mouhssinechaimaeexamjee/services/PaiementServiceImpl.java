@@ -1,15 +1,14 @@
 package net.chaimae.mouhssinechaimaeexamjee.services;
-package ma.insurance.backend.services.impl;
 
 import lombok.RequiredArgsConstructor;
-import ma.insurance.backend.dtos.PaiementRequestDTO;
-import ma.insurance.backend.dtos.PaiementResponseDTO;
-import ma.insurance.backend.entities.Contrat;
-import ma.insurance.backend.entities.Paiement;
-import ma.insurance.backend.mappers.PaiementMapper;
-import ma.insurance.backend.repositories.ContratRepository;
-import ma.insurance.backend.repositories.PaiementRepository;
-import ma.insurance.backend.services.IPaiementService;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.PaiementRequestDTO;
+import net.chaimae.mouhssinechaimaeexamjee.dtos.PaiementResponseDTO;
+import net.chaimae.mouhssinechaimaeexamjee.entities.Contrat;
+import net.chaimae.mouhssinechaimaeexamjee.entities.Paiement;
+import net.chaimae.mouhssinechaimaeexamjee.mappers.PaiementMapper;
+import net.chaimae.mouhssinechaimaeexamjee.repositories.ContratRepository;
+import net.chaimae.mouhssinechaimaeexamjee.repositories.PaiementRepository;
+ 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
