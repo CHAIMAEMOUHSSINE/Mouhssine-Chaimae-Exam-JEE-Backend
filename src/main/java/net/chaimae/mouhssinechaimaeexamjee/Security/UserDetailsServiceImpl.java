@@ -1,13 +1,13 @@
 package net.chaimae.mouhssinechaimaeexamjee.Security;
 
 import lombok.RequiredArgsConstructor;
-import ma.insurance.backend.entities.AppUser;
-import ma.insurance.backend.repositories.AppUserRepository;
+import net.chaimae.mouhssinechaimaeexamjee.entities.AppUser;
+import net.chaimae.mouhssinechaimaeexamjee.repositories.AppUserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.secugitrity.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
