@@ -29,7 +29,7 @@ public class ContratController {
 
     private final IContratService contratService;
 
-    // ============ GET endpoints ============
+
 
     @GetMapping
     @Operation(summary = "Lister tous les contrats (paginé)")
@@ -59,7 +59,6 @@ public class ContratController {
         return ResponseEntity.ok(contratService.getContratsByStatut(statut));
     }
 
-    // ============ CREATE endpoints ============
 
     @PostMapping("/automobile")
     @PreAuthorize("hasAnyRole('EMPLOYE', 'ADMIN')")
@@ -88,7 +87,6 @@ public class ContratController {
                 .body(contratService.createContratSante(dto));
     }
 
-    // ============ UPDATE endpoints ============
 
     @PutMapping("/automobile/{id}")
     @PreAuthorize("hasAnyRole('EMPLOYE', 'ADMIN')")
@@ -117,7 +115,7 @@ public class ContratController {
         return ResponseEntity.ok(contratService.updateContratSante(id, dto));
     }
 
-    // ============ STATUS ACTIONS ============
+
 
     @PatchMapping("/{id}/valider")
     @PreAuthorize("hasAnyRole('EMPLOYE', 'ADMIN')")
@@ -133,7 +131,7 @@ public class ContratController {
         return ResponseEntity.ok(contratService.resilierContrat(id));
     }
 
-    // ============ DELETE ============
+
 
     @DeleteMapping("/{id}")
     @PreAuthorize("hasRole('ADMIN')")
@@ -143,7 +141,7 @@ public class ContratController {
         return ResponseEntity.noContent().build();
     }
 
-    // ============ STATS ============
+
 
     @GetMapping("/stats/dashboard")
     @PreAuthorize("hasAnyRole('EMPLOYE', 'ADMIN')")
